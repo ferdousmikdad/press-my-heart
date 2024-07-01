@@ -20,10 +20,20 @@ p{
     color: #F9595F;
     transition: .5s ease-in-out;
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+@media screen and (max-width: 900px){
+    p{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+    }
 }
 
 /* #logo{
