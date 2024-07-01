@@ -1,0 +1,48 @@
+body{
+    background-color: #FFF3F3 ;
+}
+
+#image{
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+p{
+    font-family: playwrite it moderna;
+    font-size: 1.5rem;
+    color: #F9595F;
+    transition: .5s ease-in-out;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* #logo{
+    width: 120px;
+    position: absolute;
+    top: 92%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+    text-align: center;  
+    opacity: .3; 
+} */
+
+/* @media screen and (max-width: 900px){
+    #logo{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+    }
+} */
