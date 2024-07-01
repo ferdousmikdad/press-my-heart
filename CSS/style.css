@@ -35,24 +35,3 @@ p{
     transition: .5s;
     }
 }
-
-/* #logo{
-    width: 120px;
-    position: absolute;
-    top: 92%;
-    left: 8%;
-    transform: translate(-50%, -50%);
-    transition: .5s;
-    text-align: center;  
-    opacity: .3; 
-} */
-
-/* @media screen and (max-width: 900px){
-    #logo{
-    position: absolute;
-    top: 92%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: .5s;
-    }
-} */
