@@ -8,7 +8,7 @@ body{
     cursor: pointer;
     transition: .5s ease-in-out;
     position: absolute;
-    top: 47%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -26,23 +26,12 @@ p{
     text-align: center;
 }
 
-/* #logo{
-    width: 120px;
+@media screen and (max-width: 900px){
+    p{
     position: absolute;
-    top: 92%;
-    left: 8%;
-    transform: translate(-50%, -50%);
-    transition: .5s;
-    text-align: center;  
-    opacity: .3; 
-} */
-
-/* @media screen and (max-width: 900px){
-    #logo{
-    position: absolute;
-    top: 92%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: .5s;
     }
-} */
+}
